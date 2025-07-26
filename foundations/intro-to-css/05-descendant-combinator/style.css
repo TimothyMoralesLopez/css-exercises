@@ -1,0 +1,43 @@
+/* 
+Solution one using a type selector descendant combinator:
+*/
+
+div p
+{
+    color:#ff0000;
+    background-color:#ffff00;
+    font-size:20px;
+    text-align:center;
+}
+
+/*
+Solution two using a class selector descendant combinator:
+
+.container .text
+{
+    color:#ff0000;
+    background-color:#ffff00;
+    font-size:20px;
+    text-align:center;
+}
+
+Solution three using a combintion of type and class selectors:
+
+div .text
+{
+    color:#ff0000;
+    background-color:#ffff00;
+    font-size:20px;
+    text-align:center;
+}
+
+Solution four also using a combination of type and class selectors:
+
+.container p
+{
+    color:#ff0000;
+    background-color:#ffff00;
+    font-size:20px;
+    text-align:center;
+}
+*/
