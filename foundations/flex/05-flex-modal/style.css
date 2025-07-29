@@ -15,11 +15,18 @@ body {
   justify-content: center;
 }
 
+.card {
+  padding:10px;
+
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:20px;
+  display:flex;
 }
 
 .icon {
@@ -31,6 +38,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink:0;
   align-items: center;
   justify-content: center;
 }
@@ -66,4 +74,21 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:10px;
+}
+
+.header-text {
+  font-weight:bold;
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.text {
+  margin-bottom:10px;
 }
